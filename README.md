@@ -5,7 +5,7 @@ This is my personal portfolio website — a playful, minimal space to showcase m
 
 [🔗 Live site]([https://your-portfolio-link.com](https://ivorinee.github.io/ivorine-portfolio/))
 
----
+
 
 ## 🛠 Technologies Used
 
@@ -13,7 +13,8 @@ This is my personal portfolio website — a playful, minimal space to showcase m
 - **Styling:** CSS (custom classes, no frameworks)
 - **Assets:** Static images, GIFs, PDF
 
----
+
+
 
 ## 🔐 Resume Modal (Password Protected)
 
