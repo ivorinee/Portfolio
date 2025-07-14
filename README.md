@@ -1,11 +1,11 @@
 # Ivorine's Portfolio
 
-Hi there! 👋  
+Hi there! <br/>
 This is my personal portfolio website — a playful, minimal space to showcase my work as a **developer–designer hybrid**.
 
-[🔗 Live site]([https://your-portfolio-link.com](https://ivorinee.github.io/ivorine-portfolio/))
+Visit portfolio site [HERE](https://ivorinee.github.io/ivorine-portfolio).
 
-
+<br/>
 
 ## 🛠 Technologies Used
 
@@ -13,8 +13,7 @@ This is my personal portfolio website — a playful, minimal space to showcase m
 - **Styling:** CSS (custom classes, no frameworks)
 - **Assets:** Static images, GIFs, PDF
 
-
-
+<br/>
 
 ## 🔐 Resume Modal (Password Protected)
 
