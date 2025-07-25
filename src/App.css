@@ -432,6 +432,7 @@ body.modal-open {
 
 .project-gif {
   width: 150px;
+  cursor: pointer;
 }
 
 .project-description {
