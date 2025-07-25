@@ -1,11 +1,11 @@
 import { useState, useEffect, useRef } from "react";
 import profilePic from "./assets/profilepic.png";
-import marmal8 from "./assets/marmal8.gif";
-import marmal8Static from "./assets/marmal8-static.gif";
-import safeGait from "./assets/safegait.gif";
-import safeGaitStatic from "./assets/safegait-static.gif";
-import tutorSwipe from "./assets/tutorswipe.gif";
-import tutorSwipeStatic from "./assets/tutorswipe-static.gif";
+import marmal8 from "./assets/marmal8.mp4";
+import marmal8Static from "./assets/marmal8-static.png";
+import safeGait from "./assets/safegait.mp4";
+import safeGaitStatic from "./assets/safegait-static.png";
+import tutorSwipe from "./assets/tutorswipe.mp4";
+import tutorSwipeStatic from "./assets/tutorswipe-static.png";
 import figmaLogo from "./assets/figma.png";
 import flutterLogo from "./assets/flutter.png";
 import awsLogo from "./assets/aws.png";
@@ -277,14 +277,26 @@ function App() {
               }`}
               ref={(el) => (projectRefs.current[1] = el)}
             >
-              <img
-                className="project-gif"
-                src={onHoverMarmal8 ? marmal8 : marmal8Static}
-                alt="Marmal8"
-                onMouseEnter={() => setOnHoverMarmal8(true)}
-                onMouseLeave={() => setOnHoverMarmal8(false)}
-                onClick={() => setOnHoverMarmal8((prev) => !prev)}
-              />
+              {onHoverMarmal8 ? (
+                <video
+                  className="project-gif"
+                  src={marmal8}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  onMouseLeave={() => setOnHoverMarmal8(false)}
+                  onClick={() => setOnHoverMarmal8(false)}
+                />
+              ) : (
+                <img
+                  className="project-gif"
+                  src={marmal8Static}
+                  alt="Marmal8"
+                  onMouseEnter={() => setOnHoverMarmal8(true)}
+                  onClick={() => setOnHoverMarmal8(true)}
+                />
+              )}
               <div className="project-description">
                 <h2 className="italic">Marmal8</h2>
                 <p className="project-text">
@@ -307,14 +319,26 @@ function App() {
               }`}
               ref={(el) => (projectRefs.current[2] = el)}
             >
-              <img
-                className="project-gif"
-                src={onHoverSafeGait ? safeGait : safeGaitStatic}
-                alt="SafeGait"
-                onMouseEnter={() => setOnHoverSafeGait(true)}
-                onMouseLeave={() => setOnHoverSafeGait(false)}
-                onClick={() => setOnHoverSafeGait((prev) => !prev)}
-              />
+              {onHoverSafeGait ? (
+                <video
+                  className="project-gif"
+                  src={safeGait}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  onMouseLeave={() => setOnHoverSafeGait(false)}
+                  onClick={() => setOnHoverSafeGait(false)}
+                />
+              ) : (
+                <img
+                  className="project-gif"
+                  src={safeGaitStatic}
+                  alt="SafeGait"
+                  onMouseEnter={() => setOnHoverSafeGait(true)}
+                  onClick={() => setOnHoverSafeGait(true)}
+                />
+              )}
               <div className="project-description">
                 <h2 className="italic">SafeGait</h2>
                 <p className="project-text">
@@ -346,14 +370,26 @@ function App() {
               }`}
               ref={(el) => (projectRefs.current[3] = el)}
             >
-              <img
-                className="project-gif"
-                src={onHoverTutorSwipe ? tutorSwipe : tutorSwipeStatic}
-                alt="TutorSwipe"
-                onMouseEnter={() => setOnHoverTutorSwipe(true)}
-                onMouseLeave={() => setOnHoverTutorSwipe(false)}
-                onClick={() => setOnHoverTutorSwipe((prev) => !prev)}
-              />
+              {onHoverTutorSwipe ? (
+                <video
+                  className="project-gif"
+                  src={tutorSwipe}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  onMouseLeave={() => setOnHoverTutorSwipe(false)}
+                  onClick={() => setOnHoverTutorSwipe(false)}
+                />
+              ) : (
+                <img
+                  className="project-gif"
+                  src={tutorSwipeStatic}
+                  alt="TutorSwipe"
+                  onMouseEnter={() => setOnHoverTutorSwipe(true)}
+                  onClick={() => setOnHoverTutorSwipe(true)}
+                />
+              )}
               <div className="project-description">
                 <h2 className="italic">TutorSwipe</h2>
                 <p className="project-text">
