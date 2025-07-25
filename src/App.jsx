@@ -266,8 +266,7 @@ function App() {
                 visibleProjects[0] ? "show" : ""
               }`}
             >
-              hover (or tap on mobile) a project to see its preview in
-              action
+              hover (or tap on mobile) a project to see its preview in action
             </p>
           </div>
           <div className="projects-list">
@@ -279,7 +278,8 @@ function App() {
             >
               {onHoverMarmal8 ? (
                 <video
-                  className="project-gif"
+                  preload="auto"
+                  className="project-mp4"
                   src={marmal8}
                   autoPlay
                   loop
@@ -290,7 +290,8 @@ function App() {
                 />
               ) : (
                 <img
-                  className="project-gif"
+                  loading="eager"
+                  className="project-mp4"
                   src={marmal8Static}
                   alt="Marmal8"
                   onMouseEnter={() => setOnHoverMarmal8(true)}
@@ -321,7 +322,8 @@ function App() {
             >
               {onHoverSafeGait ? (
                 <video
-                  className="project-gif"
+                  preload="auto"
+                  className="project-mp4"
                   src={safeGait}
                   autoPlay
                   loop
@@ -332,7 +334,8 @@ function App() {
                 />
               ) : (
                 <img
-                  className="project-gif"
+                  loading="eager"
+                  className="project-mp4"
                   src={safeGaitStatic}
                   alt="SafeGait"
                   onMouseEnter={() => setOnHoverSafeGait(true)}
@@ -372,7 +375,8 @@ function App() {
             >
               {onHoverTutorSwipe ? (
                 <video
-                  className="project-gif"
+                  preload="auto"
+                  className="project-mp4"
                   src={tutorSwipe}
                   autoPlay
                   loop
@@ -383,7 +387,8 @@ function App() {
                 />
               ) : (
                 <img
-                  className="project-gif"
+                  loading="eager"
+                  className="project-mp4"
                   src={tutorSwipeStatic}
                   alt="TutorSwipe"
                   onMouseEnter={() => setOnHoverTutorSwipe(true)}

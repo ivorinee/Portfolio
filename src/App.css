@@ -436,7 +436,8 @@ body.modal-open {
   }
 }
 
-.project-gif {
+.project-mp4 {
+  display: block;
   width: 150px;
   cursor: pointer;
 }
