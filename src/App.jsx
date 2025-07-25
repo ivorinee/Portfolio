@@ -266,7 +266,7 @@ function App() {
                 visibleProjects[0] ? "show" : ""
               }`}
             >
-              hover (or tap on mobile) a project to see its GIF preview in
+              hover (or tap on mobile) a project to see its preview in
               action
             </p>
           </div>
