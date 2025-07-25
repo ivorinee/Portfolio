@@ -1,12 +1,20 @@
-# React + Vite
+# Ivorine's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hi there! <br/>
+This is my personal portfolio website — a playful, minimal space to showcase my work as a **developer–designer hybrid**.
 
-Currently, two official plugins are available:
+Visit portfolio site [HERE](https://ivorinee.github.io/ivorine-portfolio).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<br/>
 
-## Expanding the ESLint configuration
+## 🛠 Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React + Vite
+- **Styling:** CSS (custom classes, no frameworks)
+- **Assets:** Static images, GIFs, PDF
+
+<br/>
+
+## 🔐 Resume Modal (Password Protected)
+
+To protect my privacy, my resume is behind a password-protected modal.
