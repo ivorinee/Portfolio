@@ -313,6 +313,7 @@ body.modal-open {
 
 @media screen and (max-width: 768px) {
   .heading-card {
+    margin-top: 5rem;
     flex-direction: column;
     align-items: center;
     height: auto;
