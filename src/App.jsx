@@ -131,7 +131,7 @@ function App() {
   }, [resumeModalVisible]);
 
   return (
-    <>
+    <> 
       <nav className="navbar">
         <div className="navbar-align">
           <h2 className="navbar-logo">Ivorine.</h2>
