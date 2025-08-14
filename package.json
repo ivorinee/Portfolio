@@ -1,7 +1,7 @@
 {
   "name": "ivorine-portfolio",
   "version": "0.0.0",
-  "homepage": "https://ivorinee.github.io/ivorine-portfolio",
+  "homepage": "https://ivorinee.github.io/Portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
