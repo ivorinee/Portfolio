@@ -3,7 +3,7 @@
 Hi there! <br/>
 This is my personal portfolio website — a playful, minimal space to showcase my work as a **developer–designer hybrid**.
 
-Visit portfolio site [HERE](https://ivorinee.github.io/ivorine-portfolio).
+Visit portfolio site [HERE](https://ivorinee.github.io/Portfolio).
 
 <br/>
 
